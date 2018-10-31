@@ -1,5 +1,5 @@
-console.log('先加载一次');
-
+console.log('先加载一次0');
+// import(/* webpackChunkName: "lodash1" */ 'lodash');
 
 export default class countDown {
     static _setStr(num) {
